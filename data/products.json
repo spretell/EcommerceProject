@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Maple Crunch Pancake Mix",
+    "price": 8.99,
+    "description": "Maple-infused mix with crunchy maple bits for a sweet morning bite.",
+    "category": "pancake",
+    "image": "media/data/MapleCrunch.jpeg"
+  },
+  {
+    "name": "Choco Bliss Pancake Mix",
+    "price": 9.49,
+    "description": "Chocolate pancakes made with real cocoa and dark chocolate chunks.",
+    "category": "pancake",
+    "image": "media/data/ChocoBliss.jpg"
+  },
+  {
+    "name": "Berry Burst Pancake Mix",
+    "price": 9.99,
+    "description": "A bright blend of freeze-dried blueberries and raspberries.",
+    "category": "pancake",
+    "image": "media/data/BerryBurst.jpg"
+  },
+  {
+    "name": "Banana Walnut Brunch Mix",
+    "price": 10.49,
+    "description": "Real banana powder and chopped walnuts for a heartier breakfast.",
+    "category": "pancake",
+    "image": "media/data/BananaWalnut.jpg"
+  },
+  {
+    "name": "Cinnamon Swirl Pancake Mix",
+    "price": 8.99,
+    "description": "Warm cinnamon with a brown sugar streusel flavor.",
+    "category": "pancake",
+    "image": "media/data/CinnamonSwirl.jpg"
+  },
+  {
+    "name": "Buttermilk Classic Mix",
+    "price": 7.99,
+    "description": "Out classic buttermilk pancakes made simple and delicious.",
+    "category": "pancake",
+    "image": "media/data/ButtermilkClassic.jpg"
+  },
+  {
+    "name": "Golden Cornbread Waffle Mix",
+    "price": 9.49,
+    "description": "A sweet cornbread-inspired waffle perfect for savory toppings.",
+    "category": "waffle",
+    "image": "media/data/CornbreadWaffle.jpg"
+  },
+  {
+    "name": "Lemon Poppy Zest Waffle Mix",
+    "price": 10.99,
+    "description": "Bright citrus with a light poppy seed crunch.",
+    "category": "waffle",
+    "image": "media/data/LemonPoppy.jpeg"
+  },
+  {
+    "name": "Gluten-Free Vanilla Almond Mix",
+    "price": 11.49,
+    "description": "Almond flour blend with smooth vanilla flavor.",
+    "category": "gluten-free",
+    "image": "media/data/VanillaAlmond.jpeg"
+  },
+  {
+    "name": "Vegan Cocoa Oat Pancake Mix",
+    "price": 10.99,
+    "description": "Oat-based, dairy-free, egg-free cocoa pancake mix.",
+    "category": "vegan",
+    "image": "media/data/CocoaOat.jpg"
+  },
+  {
+    "name": "Pumpkin Spice Pancake Mix",
+    "price": 9.49,
+    "description": "A cozy fall blend with pumpkin, cinnamon, and nutmeg.",
+    "category": "seasonal",
+    "image": "media/data/PumpkinSpice.jpg"
+  },
+  {
+    "name": "Gingerbread Morning Mix",
+    "price": 9.99,
+    "description": "Warm gingerbread and holiday spice in every bite.",
+    "category": "seasonal",
+    "image": "media/data/Gingerbread.jpg"
+  }
+]

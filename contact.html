@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bake Brunch Co. | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link (global styles) -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- css link (page specific) -->
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+
+  <body>
+    <!-- top ticker bar -->
+    <div class="top-ticker" aria-label="Bake Brunch Co. announcements">
+      <div class="ticker-inner">
+        <div class="ticker-track">
+          <span>Shop Bake Brunch Co</span>
+          <span class="sep">○</span>
+          <span>Start baking today</span>
+          <span class="sep">○</span>
+          <span>Check out our mixes</span>
+          <span class="sep">○</span>
+          <span>Fluffy stacks in 15 minutes</span>
+          <span class="sep">○</span>
+          <span>From our kitchen to yours</span>
+          <span class="sep">○</span>
+        </div>
+
+        <!-- duplicate track for smoother loop -->
+        <div class="ticker-track" aria-hidden="true">
+          <span>Shop Bake Brunch Co</span>
+          <span class="sep">○</span>
+          <span>Start baking today</span>
+          <span class="sep">○</span>
+          <span>Check out our mixes</span>
+          <span class="sep">○</span>
+          <span>Fluffy stacks in 15 minutes</span>
+          <span class="sep">○</span>
+          <span>From our kitchen to yours</span>
+          <span class="sep">○</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- header shell -->
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="logo" href="index.html">Bake Brunch Co.</a>
+
+        <nav aria-label="Main navigation" class="main-nav">
+          <!-- mobile nav w cart icon -->
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="main-menu"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <ul id="main-menu" class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+
+          <!-- shopping cart button -->
+          <button class="cart-btn" aria-label="View cart">
+            <!-- copied directly as inline svg -->
+            <svg
+              class="cart-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-1 -1 26 26"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path
+                d="M1 1h4l2.68 12.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+              ></path>
+            </svg>
+          </button>
+        </nav>
+      </header>
+    </div>
+
+    <main>
+      <section class="section-contact">
+        <!-- hero video -->
+        <div class="page-shell contact-hero-wrapper">
+          <div class="contact-video-wrapper">
+            <video class="contact-hero-video" autoplay muted loop playsinline>
+              <source src="media/pancake_video2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="contact-video-overlay"></div>
+
+            <div class="contact-video-text">
+              <p class="eyebrow">We’d love to hear from you</p>
+              <h1>Let’s talk brunch plans</h1>
+              <p>
+                Have a question about an order, a mix idea, or want to use Bake
+                Brunch Co. in your local café? Send us a note and we’ll be in
+                touch!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact quote -->
+        <section
+          class="contact-quote-section"
+          aria-labelledby="contact-quote-heading"
+        >
+          <div class="contact-quote-inner">
+            <h2 id="contact-quote-heading" class="sr-only">
+              Customer connection
+            </h2>
+
+            <!-- quote image -->
+            <img
+              src="media/quotestack2.PNG"
+              alt="Illustration of stacked waffles"
+              class="contact-quote-image"
+              loading="lazy"
+            />
+
+            <p class="contact-quote">
+              Every great brunch starts with a conversation.
+            </p>
+
+            <p class="contact-quote-sub">
+              Have feedback, a question, or a new mix in mind? We'd love to hear
+              from you.
+            </p>
+          </div>
+        </section>
+
+        <!-- contact panel -->
+        <div class="page-shell contact-panel">
+          <div class="contact-layout">
+            <!-- contact form -->
+            <section
+              class="contact-form-wrapper"
+              aria-labelledby="contact-form-heading"
+            >
+              <header class="contact-header">
+                <h2 id="contact-form-heading">Send us a message</h2>
+                <p>
+                  Tell us a little about what you need help with, and we’ll get
+                  back to you as soon as we can.
+                </p>
+              </header>
+
+              <form
+                id="contact-form"
+                class="contact-form"
+                novalidate
+                aria-describedby="form-status"
+              >
+                <!-- name -->
+                <div class="field">
+                  <label for="name">
+                    Name
+                    <span class="field-required" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required
+                    aria-required="true"
+                    aria-describedby="name-error"
+                  />
+                  <p
+                    id="name-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <!-- email -->
+                <div class="field">
+                  <label for="email">
+                    Email
+                    <span class="field-required" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    inputmode="email"
+                    required
+                    aria-required="true"
+                    aria-describedby="email-error"
+                  />
+                  <p
+                    id="email-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <!-- order number (optional) -->
+                <div class="field">
+                  <label for="order-number">
+                    Order number <span class="field-optional">(optional)</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="order-number"
+                    name="orderNumber"
+                    autocomplete="off"
+                    aria-describedby="order-help"
+                  />
+                  <p id="order-help" class="field-help">
+                    If you’re writing about a recent order, adding your order
+                    number helps us find it faster.
+                  </p>
+                </div>
+
+                <!-- reason select -->
+                <div class="field">
+                  <label for="reason">
+                    Reason for contacting
+                    <span class="field-required" aria-hidden="true">*</span>
+                  </label>
+                  <select
+                    id="reason"
+                    name="reason"
+                    required
+                    aria-required="true"
+                    aria-describedby="reason-error"
+                  >
+                    <option value="">Please choose one…</option>
+                    <option value="general">General question</option>
+                    <option value="order">Question about an order</option>
+                    <option value="wholesale">Wholesale or café inquiry</option>
+                    <option value="feedback">Product feedback</option>
+                  </select>
+                  <p
+                    id="reason-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <!-- message -->
+                <div class="field">
+                  <label for="message">
+                    Message
+                    <span class="field-required" aria-hidden="true">*</span>
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    aria-required="true"
+                    aria-describedby="message-error"
+                  ></textarea>
+                  <p
+                    id="message-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <!-- newsletter checkbox -->
+                <div class="field field-inline">
+                  <div class="checkbox-wrapper">
+                    <input type="checkbox" id="newsletter" name="newsletter" />
+                    <label for="newsletter">
+                      Email me about new mixes and seasonal drops.
+                    </label>
+                  </div>
+                </div>
+
+                <!-- submit + status -->
+                <div class="field">
+                  <button type="submit" class="btn primary contact-submit">
+                    Send message
+                  </button>
+
+                  <p
+                    id="form-status"
+                    class="form-status"
+                    role="status"
+                    aria-live="polite"
+                    hidden
+                  ></p>
+                </div>
+
+                <p class="field-note">
+                  <span class="field-required">*</span> Required fields
+                </p>
+              </form>
+            </section>
+
+            <!-- customer care info -->
+            <aside class="contact-aside" aria-label="Customer support info">
+              <div class="contact-card">
+                <h2>Customer care</h2>
+                <p>
+                  We’re a tiny brunch-obsessed team, but we read every message.
+                  Expect a response within
+                  <strong>1–2 business days</strong>.
+                </p>
+
+                <dl class="contact-details">
+                  <div>
+                    <dt>Email</dt>
+                    <dd>
+                      <a href="mailto:hello@bakebrunchco.com">
+                        hello@bakebrunchco.com
+                      </a>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt>Hours</dt>
+                    <dd>Mon–Fri · 9 a.m. – 5 p.m. EST</dd>
+                  </div>
+                  <div>
+                    <dt>Order FAQ</dt>
+                    <dd>Most orders ship in 2–3 business days.</dd>
+                  </div>
+                </dl>
+
+                <p class="aside-note">
+                  If you’re writing about an order, including your
+                  <strong>order number</strong> would help us help you faster.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- bottom ticker bar -->
+    <div
+      class="top-ticker bottom-ticker"
+      aria-label="Bake Brunch Co. announcements"
+    >
+      <div class="ticker-inner">
+        <div class="ticker-track">
+          <span>Mornings full of flavor</span>
+          <span class="sep">○</span>
+          <span>Pour. Flip. Enjoy.</span>
+          <span class="sep">○</span>
+          <span>Yummy</span>
+          <span class="sep">○</span>
+          <span>A better way to brunch</span>
+          <span class="sep">○</span>
+        </div>
+
+        <!-- duplicate track for smoother loop -->
+        <div class="ticker-track" aria-hidden="true">
+          <span>Mornings full of flavor</span>
+          <span class="sep">○</span>
+          <span>Pour. Flip. Enjoy.</span>
+          <span class="sep">○</span>
+          <span>Yummy</span>
+          <span class="sep">○</span>
+          <span>A better way to brunch</span>
+          <span class="sep">○</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- cream footer -->
+    <footer class="site-footer">
+      <div class="page-shell footer-inner">
+        <p class="footer-tagline">EAT BAKE BRUNCH</p>
+
+        <!-- copyright -->
+        <p class="footer-copy">&copy; 2025 Bake Brunch Co.</p>
+
+        <!-- page links -->
+        <div class="footer-row">
+          <nav aria-label="Footer navigation">
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- social links -->
+          <ul class="social-links">
+            <li>
+              <a
+                href="https://github.com/spretell/EcommerceProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our GitHub"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/stephaniepretell/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our LinkedIn"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- javascript links -->
+    <script src="js/main.js" defer></script>
+    <script src="js/contact.js" defer></script>
+  </body>
+</html>

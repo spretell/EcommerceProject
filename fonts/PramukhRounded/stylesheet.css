@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-BlackItalic.woff2') format('woff2'),
+        url('PramukhRounded-BlackItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Black.woff2') format('woff2'),
+        url('PramukhRounded-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-BoldItalic.woff2') format('woff2'),
+        url('PramukhRounded-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Extrabold.woff2') format('woff2'),
+        url('PramukhRounded-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Extralight.woff2') format('woff2'),
+        url('PramukhRounded-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Bold.woff2') format('woff2'),
+        url('PramukhRounded-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-ExtraboldItalic.woff2') format('woff2'),
+        url('PramukhRounded-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-ExtralightItalic.woff2') format('woff2'),
+        url('PramukhRounded-ExtralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Italic.woff2') format('woff2'),
+        url('PramukhRounded-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-LightItalic.woff2') format('woff2'),
+        url('PramukhRounded-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Regular.woff2') format('woff2'),
+        url('PramukhRounded-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Light.woff2') format('woff2'),
+        url('PramukhRounded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-SemiboldItalic.woff2') format('woff2'),
+        url('PramukhRounded-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-SemilightItalic.woff2') format('woff2'),
+        url('PramukhRounded-SemilightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Semibold.woff2') format('woff2'),
+        url('PramukhRounded-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pramukh Rounded';
+    src: url('PramukhRounded-Semilight.woff2') format('woff2'),
+        url('PramukhRounded-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
